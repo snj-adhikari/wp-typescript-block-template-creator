@@ -1,0 +1,31 @@
+{
+  "name": "njw-wp-typescript-block",
+  "version": "1.0.0",
+  "description": "This can be used as intial template for  @wordpress/create-block ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snj-adhikari/wp-typescript-block-template-creator.git"
+  },
+  "keywords": [
+    "@wordpress/create-block",
+    "npx",
+    "template",
+    "gutenberg",
+    "wordpress",
+    "block"
+  ],
+  "author": "SNJ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snj-adhikari/wp-typescript-block-template-creator/issues"
+  },
+  "homepage": "https://github.com/snj-adhikari/wp-typescript-block-template-creator#readme",
+  "dependencies": {
+    "@wordpress/create-block-tutorial-template": "^2.5.0",
+    "path": "^0.12.7"
+  }
+}
