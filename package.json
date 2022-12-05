@@ -1,6 +1,6 @@
 {
   "name": "njw-wp-typescript-block",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "This can be used as intial template for  @wordpress/create-block ",
   "main": "index.js",
   "scripts": {
