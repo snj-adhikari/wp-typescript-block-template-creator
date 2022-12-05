@@ -18,8 +18,14 @@ import { useBlockProps } from '@wordpress/block-editor';
  * @param {Object} props.attributes Available block attributes.
  * @return {WPElement} Element to render.
  */
-export default function save( { attributes } ) {
+export default function save( { attributes } : {attributes:Object} ) {
 	const blockProps = useBlockProps.save();
-	return <div { ...blockProps }>{ attributes.message }</div>;
+	const { title } = attributes;
+	return (
+	<div { ...blockProps }>
+		<div> {title}</div>
+	</div>
+	)
 }
+
 {{/isStaticVariant}}
